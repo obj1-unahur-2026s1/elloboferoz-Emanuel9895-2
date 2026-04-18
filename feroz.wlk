@@ -10,8 +10,15 @@ object feroz {
     pesoActual += cantidad
   }
 
-  method sufrifCrisis(){
+  method sufrirCrisis(){
     pesoActual = pesoInicial
   }
 
+  method comer(cantidadComida){
+    pesoActual = cantidadComida*0.10  
+  }
+
+  method correrHaciaUnLugar(){
+    pesoActual - 1
+  }
 }
